@@ -14,4 +14,4 @@ def age_appropriate_birthday(birthday_kids)
   birthday_kids.each do |kname,age|
     if age >= 12 
       puts "Happy Birthday #{kname}! You are now #{age} years old!"
-  else 
+  else ""
